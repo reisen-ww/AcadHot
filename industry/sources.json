@@ -1,0 +1,436 @@
+{
+  "$comment": "示范信源：首次启动时导入（scripts/seed.ts），已存在的不会被覆盖。之后在后台“信源”里新建、修改和暂停。字段说明见 docs/customize.md。",
+  "sources": [
+    {
+      "id": "acad-biorxiv",
+      "name": "bioRxiv",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://connect.biorxiv.org/biorxiv_xml.php?subject=all",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "biorxiv",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "预印本",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-medrxiv",
+      "name": "medRxiv",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://connect.medrxiv.org/medrxiv_xml.php?subject=all",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "biorxiv",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "预印本",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-nature",
+      "name": "Nature",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.nature.com/nature.rss",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "nature",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "期刊",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-nature-medicine",
+      "name": "Nature Medicine",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.nature.com/nm.rss",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "nature",
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "期刊",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-nature-neuroscience",
+      "name": "Nature Neuroscience",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.nature.com/neuro.rss",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "nature",
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "期刊",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-nature-biotech",
+      "name": "Nature Biotechnology",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.nature.com/nbt.rss",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "nature",
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "期刊",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-cell",
+      "name": "Cell",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.cell.com/action/showFeed?type=etoc&feed=rss&jc=cell",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "cell",
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "期刊",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-nejm",
+      "name": "NEJM",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "nejm",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "期刊",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-lancet",
+      "name": "The Lancet",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.thelancet.com/rssfeed/lancet_current.xml",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "lancet",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "期刊",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-science-news",
+      "name": "Science 新闻",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.science.org/rss/news_current.xml",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "science",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-36kr",
+      "name": "36氪",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.36kr.com/feed",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "中文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-endpoints",
+      "name": "Endpoints News",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://endpoints.news/feed/",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-mit-tech-review",
+      "name": "MIT Technology Review",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.technologyreview.com/feed/",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-phys-org",
+      "name": "Phys.org",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://phys.org/rss-feed/",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-quanta",
+      "name": "Quanta Magazine",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.quantamagazine.org/feed/",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-sciencedaily-health",
+      "name": "ScienceDaily 健康医学",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.sciencedaily.com/rss/health_medicine.xml",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-sciencedaily-top",
+      "name": "ScienceDaily 综合",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.sciencedaily.com/rss/top/science.xml",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-sciencenet",
+      "name": "科学网博客",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.sciencenet.cn/xml/blog.aspx?di=0",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "owner_entity_id": "cas",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "中文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-solidot",
+      "name": "奇客 Solidot",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.solidot.org/index.rss",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "中文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-statnews",
+      "name": "STAT News",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.statnews.com/feed/",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "英文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "acad-zhishifenzi",
+      "name": "知识分子",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.zhishifenzi.com/rss",
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "媒体",
+        "中文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+  ]
+}

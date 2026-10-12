@@ -1,0 +1,189 @@
+{
+  "groups": [
+    {
+      "key": "company",
+      "name": "机构与公司",
+      "blurb": "按机构追踪实验室、期刊、药企与监管部门的动态"
+    },
+    {
+      "key": "field",
+      "name": "研究方向",
+      "blurb": "按方向深挖：阿尔茨海默、脑机接口、量子计算、固态电池……"
+    },
+    {
+      "key": "genre",
+      "name": "内容形态",
+      "blurb": "按内容类型浏览：顶会论文、撤稿、临床读出、监管批准……"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "deepmind",
+      "name": "DeepMind",
+      "group": "company",
+      "entityId": "deepmind",
+      "definition": "DeepMind 的全部动态：模型与算法进展、AlphaFold 与 AI for Science 成果、实验室人事与合作，以及成果在顶刊上的发表。"
+    },
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "group": "company",
+      "entityId": "openai",
+      "definition": "OpenAI 的持续追踪：模型能力与评测结果、安全与对齐研究、算力与合作安排，以及研究团队的人事变动。"
+    },
+    {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "group": "company",
+      "entityId": "nvidia",
+      "definition": "英伟达在科研侧的动作：面向训练与科学计算的芯片与系统、研究团队论文、算力供给与高校和研究机构的合作。"
+    },
+    {
+      "slug": "nature",
+      "name": "Nature",
+      "group": "company",
+      "entityId": "nature",
+      "definition": "《自然》及其子刊的持续追踪：刊发的重要论文、社论与编辑政策、同行评议改革、撤稿与更正声明。"
+    },
+    {
+      "slug": "science",
+      "name": "Science",
+      "group": "company",
+      "entityId": "science",
+      "definition": "《科学》及其子刊的持续追踪：刊发的重要论文、社论与出版政策、与 AAAS 相关的科研政策表态。"
+    },
+    {
+      "slug": "nejm",
+      "name": "NEJM",
+      "group": "company",
+      "entityId": "nejm",
+      "definition": "《新英格兰医学杂志》的持续追踪：重要临床试验读出与医学研究发表、编辑部评论、勘误与利益冲突处理。"
+    },
+    {
+      "slug": "nih",
+      "name": "NIH",
+      "group": "company",
+      "entityId": "nih",
+      "definition": "美国国立卫生研究院的全部动态：经费预算与资助方向、院内研究结果、政策与伦理要求，以及下属研究所的动向。"
+    },
+    {
+      "slug": "fda",
+      "name": "FDA",
+      "group": "company",
+      "entityId": "fda",
+      "definition": "美国食品药品监督管理局的监管决定：新药与生物制品批准、拒绝与撤回、加速审批与附条件要求、专家委员会表决与安全警示。"
+    },
+    {
+      "slug": "alzheimers",
+      "name": "阿尔茨海默与神经退行",
+      "group": "field",
+      "tags": ["阿尔茨海默", "帕金森"],
+      "definition": "神经退行性疾病的研发进展：发病机制、血液与影像标志物、抗淀粉样蛋白与 tau 药物的试验读出和审批争议。"
+    },
+    {
+      "slug": "brain-computer-interface",
+      "name": "脑机接口",
+      "group": "field",
+      "tags": ["脑机接口"],
+      "definition": "脑机接口与神经假体：电极与信号解码技术、植入手术与长期安全性、语言与运动功能重建的人体试验进展。"
+    },
+    {
+      "slug": "quantum-computing",
+      "name": "量子计算",
+      "group": "field",
+      "tags": ["量子计算"],
+      "definition": "量子信息科学的进展：比特数量与纠错、门保真度与量子优势演示、硬件路线竞争，以及量子通信与精密测量。"
+    },
+    {
+      "slug": "solid-state-battery",
+      "name": "电池与储能",
+      "group": "field",
+      "tags": ["固态电池"],
+      "definition": "电池与储能的研究与产业化：固态电解质与锂金属负极、能量密度与循环寿命数据、中试线与量产时间表。"
+    },
+    {
+      "slug": "gene-editing",
+      "name": "基因编辑与 CRISPR",
+      "group": "field",
+      "tags": ["CRISPR", "基因治疗"],
+      "definition": "基因编辑技术的全链条：编辑工具与碱基/先导编辑的机制改进、脱靶与递送、体内与体外基因治疗的人体试验读出。"
+    },
+    {
+      "slug": "cancer-immunotherapy",
+      "name": "癌症免疫治疗",
+      "group": "field",
+      "tags": ["癌症免疫", "细胞治疗"],
+      "definition": "肿瘤免疫的进展：检查点抑制剂与新型免疫靶点、CAR-T 与 T 细胞衔接器、实体瘤疗效与耐药机制、联合方案试验。"
+    },
+    {
+      "slug": "protein-structure",
+      "name": "蛋白质结构与设计",
+      "group": "field",
+      "tags": ["蛋白质结构"],
+      "definition": "蛋白质结构与从头设计：结构预测与复合物建模、试验验证的结构、设计新型结合蛋白与酶的成果。"
+    },
+    {
+      "slug": "nuclear-fusion",
+      "name": "核聚变",
+      "group": "field",
+      "tags": ["核聚变"],
+      "definition": "可控核聚变的进展：托卡马克与仿星器的等离子体参数、点火与增益记录、高温超导磁体、私营聚变公司的融资与里程碑。"
+    },
+    {
+      "slug": "conference-paper",
+      "name": "顶会与论文接收",
+      "group": "genre",
+      "tags": ["会议与顶会", "论文发表"],
+      "definition": "学术发表的形态：顶会论文接收与最佳论文、投稿量与录用率、大会现场的重要发布，以及预印本转为正式发表。"
+    },
+    {
+      "slug": "retraction",
+      "name": "撤稿与学术不端",
+      "group": "genre",
+      "tags": ["撤稿更正"],
+      "definition": "学术诚信事件：撤稿与更正声明、图像与数据造假、论文工厂与买卖版面、期刊调查与机构处理结果。"
+    },
+    {
+      "slug": "clinical-trial",
+      "name": "临床试验",
+      "group": "genre",
+      "tags": ["临床试验"],
+      "definition": "试验的设计与读出：主要终点达成或未达成、中期分析与提前终止、入组与安全性信号，含阴性结果。"
+    },
+    {
+      "slug": "regulatory-approval",
+      "name": "监管批准",
+      "group": "genre",
+      "tags": ["监管批准"],
+      "definition": "药监与卫生监管的决定：新药与器械获批或拒绝、附条件与加速审批、适应症扩展、标签与安全警示调整。"
+    },
+    {
+      "slug": "research-funding",
+      "name": "经费与资助",
+      "group": "genre",
+      "tags": ["经费与资助"],
+      "definition": "科研资金的流向：国家与研究机构的预算与拨款、基金资助方向与中标结果、慈善捐赠与新型资助模式。"
+    },
+    {
+      "slug": "research-policy",
+      "name": "科研政策",
+      "group": "genre",
+      "tags": ["政策发布"],
+      "definition": "科研治理规则的变化：数据与样本管理、出口管制与跨国合作限制、开放获取要求、科研伦理与安全审查。"
+    },
+    {
+      "slug": "awards",
+      "name": "奖项与荣誉",
+      "group": "genre",
+      "tags": ["奖项荣誉"],
+      "definition": "学术荣誉的授予：诺贝尔奖与各学科大奖、院士与学会会士增选、重要学术奖项的获奖成果与争议。"
+    },
+    {
+      "slug": "industry-transfer",
+      "name": "合作与成果转化",
+      "group": "genre",
+      "tags": ["合作与转让"],
+      "definition": "从实验室到产业的环节：校企与院企合作、专利许可与技术转让、孵化与分拆公司、大型产学研联合项目。"
+    }
+  ]
+}
